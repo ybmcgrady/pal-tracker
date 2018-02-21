@@ -11,6 +11,9 @@ import java.util.Map;
 public class EnvController {
     private final String port, memory_limit, cf_instance_index, cf_instance_addr;
 
+    /*
+    EnvController
+     */
     public EnvController(@Value("${PORT:NOT SET}")String port, @Value("${MEMORY_LIMIT:NOT SET}")String memory_limit,
                   @Value("${CF_INSTANCE_INDEX:NOT SET}")String cf_instance_index, @Value("${CF_INSTANCE_ADDR:NOT SET}")String cf_instance_addr) {
         this.port = port;
