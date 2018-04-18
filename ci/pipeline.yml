@@ -16,6 +16,7 @@ resources:
     organization: {{cf-org}}
     space: pcfdev-space
     skip_cert_check: true
+    skip-ssl-validation: true
 
 jobs:
 - name: build-and-deploy
