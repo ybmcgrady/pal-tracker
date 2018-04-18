@@ -13,7 +13,7 @@ outputs:
   - name: build-output
 
 run:
-  path: bash
+  path: pwd
   args:
   - -exc
   - |
