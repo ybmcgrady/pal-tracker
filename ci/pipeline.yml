@@ -22,10 +22,10 @@ jobs:
   - get: pal-tracker
     trigger: true
   - task: build and test
-    file: /Users/Mac/Dev/workspace/pal-tracker/ci/build.yml
+    file: pal-tracker/ci/build.yml
   - put: deploy
     params:
-      manifest: /Users/Mac/Dev/workspace/pal-tracker/manifest.yml
+      manifest: pal-tracker/manifest.yml
       path: build-output/pal-tracker.jar
       environment_variables:
         WELCOME_MESSAGE: "Hello from Concourse"

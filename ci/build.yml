@@ -15,10 +15,11 @@ outputs:
 run:
   path: bash
   args:
+  echo hello
+  pwd
   - -exc
   - |
-    pwd
-    cd /Users/Mac/Dev/workspace/pal-tracker/
+    cd pal-tracker
     chmod +x gradlew
     ./gradlew build
     cp build/libs/pal-tracker.jar ../build-output
