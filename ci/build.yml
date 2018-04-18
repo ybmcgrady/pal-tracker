@@ -15,10 +15,10 @@ outputs:
 run:
   path: bash
   args:
-  echo hello
-  pwd
   - -exc
   - |
+    echo hello
+    pwd
     cd pal-tracker
     chmod +x gradlew
     ./gradlew build
