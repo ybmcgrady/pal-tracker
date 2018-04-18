@@ -13,11 +13,5 @@ outputs:
   - name: build-output
 
 run:
-  path: bash
-  args:
-  - -exc
-  - |
-    cd pal-tracker
-    chmod +x gradlew
-    ./gradlew build
-    cp build/libs/pal-tracker.jar ../build-output
+  path: echo
+  args: [hello world]
