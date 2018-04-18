@@ -17,6 +17,7 @@ run:
   args:
   - -exc
   - |
+    pwd
     cd pal-tracker
     chmod +x gradlew
     ./gradlew build
