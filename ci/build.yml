@@ -17,7 +17,8 @@ run:
   args:
   - -exc
   - |
-    echo hello
+    ls -la
+    echo "hello"
     pwd
     cd pal-tracker
     chmod +x gradlew
